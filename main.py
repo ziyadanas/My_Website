@@ -12,7 +12,7 @@ def weddingInvitation():
 
 @app.route('/finance_planner')
 def financePlanner():
-    return "this is page for finance planner"
+    return render_template('finance_planner.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

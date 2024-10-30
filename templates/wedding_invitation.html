@@ -20,11 +20,11 @@
 	<!-- Bulma Version 0.8.x-->
 	<link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
 	<link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='font/font.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/background.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style_smartphone.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/jquery.countdown.css') }}" />
+	<link rel="stylesheet" type="text/css" href="/static/font/font.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/background.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/style_smartphone.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/jquery.countdown.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">	
 	<script
 		src="https://kit.fontawesome.com/2828f7885a.js"
@@ -33,9 +33,9 @@
 	</script>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="{{ url_for('static', filename='js/jquery.coundown.js') }}"></script>
-	<script src="{{ url_for('static', filename='js/audio_policy.js') }}"></script>
-	<link rel="icon" type="image/png" href="{{ url_for('static', filename='image/favicon.png') }}" />
+	<script src="/static/js/jquery.coundown.js"></script>
+	<script src="/static/js/audio_policy.js"></script>
+	<link rel="icon" type="image/png" href="/static/image/favicon.png" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Begin Script for Countdown -->
@@ -53,7 +53,7 @@
 
 	<!-- Start Song section -->
 	<audio id="myAudio" controls style="display: none;">
-		<source src="{{ url_for('static', filename='song/Taylor_Lovers.mp3') }}" type="audio/mpeg">
+		<source src="/static/song/Taylor_Lovers.mp3" type="audio/mpeg">
 		Your browser does not support the audio element.
 	  </audio>
 	<!-- End Song section -->
@@ -65,7 +65,7 @@
     <!-- Begin Preloader -->
     <div class="preloader-wrapper">
 		<div class="preloader">
-			<img src="{{ url_for('static', filename='image/favicon.png') }}" alt="Flower" />
+			<img src="/static/image/favicon.png" alt="Flower" />
 		</div>
     </div>
     <!-- End Preloader-->
@@ -210,11 +210,11 @@
 		<section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
         
 			<div data-aos="fade-up" data-aos-easing="linear">
-				<img src="{{ url_for('static', filename='image/bismillah.png') }}" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim">
+				<img src="/static/image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim">
 			</div>
 
 			<div data-aos="fade-up" data-aos-easing="linear">
-				<img src="{{ url_for('static', filename='image/Assalamualaikum.png') }}" class="assalamualaikum has-text-centered" alt="Assalamualaikum">
+				<img src="/static/image/Assalamualaikum.png" class="assalamualaikum has-text-centered" alt="Assalamualaikum">
 			</div>
 
 			<span class="space40px"></span>
@@ -241,7 +241,7 @@
 			</div>
 
 			<div data-aos="fade-up" data-aos-easing="linear">
-				<img src="{{ url_for('static', filename='image/divider1-darkest.png') }}" class="divider_darkest" alt="divider">
+				<img src="/static/image/divider1-darkest.png" class="divider_darkest" alt="divider">
 			</div>
 
 			<div data-aos="fade-up" data-aos-easing="linear">
@@ -282,7 +282,7 @@
 			<span class="space40px"></span>
 			
 			<div data-aos="fade-up" data-aos-easing="linear">
-				<img src="{{ url_for('static', filename='image/divider-leaves.png') }}" class="divider has-text-centered" alt="~~~">
+				<img src="/static/image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
 			</div>
 			
 			<span class="space40px"></span>
@@ -455,7 +455,7 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="{{ url_for('static', filename='js/function.js') }}"></script>
+    <script src="/static/js/function.js"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>

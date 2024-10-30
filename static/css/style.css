@@ -683,3 +683,19 @@ body.preloader-site {
   padding: 10px; /* Padding */
   z-index: 9999; /* Higher z-index to stay on top of other elements */
 }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
