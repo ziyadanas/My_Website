@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-  - export DEPLOYPATH=/home/example/public_html/
+  - export DEPLOYPATH=/home/zzaharic/public_html/
   - /bin/cp -rf main.py $DEPLOYPATH
   - /bin/cp -rf requirement.txt $DEPLOYPATH
   - /bin/cp -rf static $DEPLOYPATH
