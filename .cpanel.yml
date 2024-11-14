@@ -8,4 +8,4 @@ deployment:
   - /bin/cp -rf templates $DEPLAYPATH
   - /bin/cp -rf venv $DEPLOYPATH
   - /bin/pip install -r requirements.txt
-  - gunicorn main:app
+  - /bin/gunicorn main:app
