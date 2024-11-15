@@ -1,11 +1,11 @@
 ---
 deployment:
-  tasks:
-  - export DEPLOYPATH=/home/zzaharic/public_html/
-  - /bin/cp -rf main.py $DEPLOYPATH
-  - /bin/cp -rf requirement.txt $DEPLOYPATH
-  - /bin/cp -rf static $DEPLOYPATH
-  - /bin/cp -rf templates $DEPLAYPATH
-  - /bin/cp -rf venv $DEPLOYPATH
-  - /bin/pip install -r requirements.txt
-  - /bin/gunicorn main:app
+	tasks:
+		- export DEPLOYPATH=/home/zzaharic/public_html/
+		- /bin/cp -rf main.py $DEPLOYPATH
+		- /bin/cp -rf requirements.txt $DEPLOYPATH
+		- /bin/cp -rf static $DEPLOYPATH
+		- /bin/cp -rf templates $DEPLAYPATH
+		- /bin/cp -rf venv $DEPLOYPATH
+		- /bin/pip install -r requirements.txt
+		- /bin/gunicorn main:app
